@@ -31,7 +31,9 @@ template <typename T> class MyStack {
     }
 
     ~MyStack() {
-        delete head;
+        if (topInd != 0) {
+            delete head;
+        }
     }
 
     bool isFull() const {
