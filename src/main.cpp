@@ -1,6 +1,6 @@
 //  Copyright 2021 Nikita Naumov
-#include "postfix.h"
 #include <iostream>
+#include "postfix.h"
 
 int main() {
     std::string str("100 + 100 * 20.4");
